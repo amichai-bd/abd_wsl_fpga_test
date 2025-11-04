@@ -1,0 +1,11 @@
+# vsim -c -voptargs="+acc" work.alu_tb -do "run -all; quit -f" 
+# Start time: 13:56:04 on Nov 04,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Error: /home/amichaibd/work_area/abd_wsl_fpga_test/verif/alu/alu_tb.sv(30): Module 'alu' is not defined.
+#  For instance 'alu_inst' at path 'alu_tb'
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=1.
+# Error loading design
+# End time: 13:56:04 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
